@@ -13,6 +13,8 @@
 		047B0CE91A0EFDA800F1019B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047B0CE71A0EFDA800F1019B /* Main.storyboard */; };
 		047B0CEB1A0EFDA800F1019B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047B0CEA1A0EFDA800F1019B /* Images.xcassets */; };
 		047B0CF71A0EFDA800F1019B /* _1_POST______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B0CF61A0EFDA800F1019B /* _1_POST______Tests.m */; };
+		047B0D021A0EFF2200F1019B /* UploadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B0D011A0EFF2200F1019B /* UploadFile.m */; };
+		04FD1B661A0F585B003E34BF /* 小涵.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FD1B651A0F585B003E34BF /* 小涵.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 		047B0CF01A0EFDA800F1019B /* 41-POST 的原生上传Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "41-POST 的原生上传Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047B0CF51A0EFDA800F1019B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047B0CF61A0EFDA800F1019B /* _1_POST______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_POST______Tests.m"; sourceTree = "<group>"; };
+		047B0D001A0EFF2200F1019B /* UploadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadFile.h; sourceTree = "<group>"; };
+		047B0D011A0EFF2200F1019B /* UploadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadFile.m; sourceTree = "<group>"; };
+		04FD1B651A0F585B003E34BF /* 小涵.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小涵.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +86,11 @@
 			children = (
 				047B0CE11A0EFDA800F1019B /* AppDelegate.h */,
 				047B0CE21A0EFDA800F1019B /* AppDelegate.m */,
+				047B0D001A0EFF2200F1019B /* UploadFile.h */,
+				047B0D011A0EFF2200F1019B /* UploadFile.m */,
 				047B0CE41A0EFDA800F1019B /* ViewController.h */,
 				047B0CE51A0EFDA800F1019B /* ViewController.m */,
 				047B0CE71A0EFDA800F1019B /* Main.storyboard */,
-				047B0CEA1A0EFDA800F1019B /* Images.xcassets */,
 				047B0CDD1A0EFDA800F1019B /* Supporting Files */,
 			);
 			path = "41-POST 的原生上传";
@@ -93,6 +99,8 @@
 		047B0CDD1A0EFDA800F1019B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04FD1B651A0F585B003E34BF /* 小涵.jpg */,
+				047B0CEA1A0EFDA800F1019B /* Images.xcassets */,
 				047B0CDE1A0EFDA800F1019B /* Info.plist */,
 				047B0CDF1A0EFDA800F1019B /* main.m */,
 			);
@@ -196,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FD1B661A0F585B003E34BF /* 小涵.jpg in Resources */,
 				047B0CE91A0EFDA800F1019B /* Main.storyboard in Resources */,
 				047B0CEB1A0EFDA800F1019B /* Images.xcassets in Resources */,
 			);
@@ -215,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047B0D021A0EFF2200F1019B /* UploadFile.m in Sources */,
 				047B0CE61A0EFDA800F1019B /* ViewController.m in Sources */,
 				047B0CE31A0EFDA800F1019B /* AppDelegate.m in Sources */,
 				047B0CE01A0EFDA800F1019B /* main.m in Sources */,
@@ -402,6 +412,7 @@
 				047B0CFC1A0EFDA800F1019B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047B0CFD1A0EFDA800F1019B /* Build configuration list for PBXNativeTarget "41-POST 的原生上传Tests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +421,7 @@
 				047B0CFF1A0EFDA800F1019B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

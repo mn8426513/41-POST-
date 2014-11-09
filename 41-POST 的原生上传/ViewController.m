@@ -7,16 +7,31 @@
 //
 
 #import "ViewController.h"
+#import "UploadFile.h"
 
 @interface ViewController ()
+
 
 @end
 
 @implementation ViewController
-            
+
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UploadFile *upload = [[UploadFile alloc] init];
+    
+    NSString *path = [NSString stringWithFormat:@"http://localhost/upload.php"];
+    
+    
+    //这种方法只适合上传小于2MB的东西
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"小涵.jpg" ofType:nil];
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    
+    [upload uploadFileWithURL:[NSURL URLWithString:path] data:data];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
